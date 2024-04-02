@@ -1,0 +1,46 @@
+@charset "UTF-8";
+:root {
+    --cor1:#161d5b;
+    --cor2:#a54927;
+    --cor3:#27A800;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F2FFFF;
+}
+header {
+    text-align: center;
+    font-weight: bolder;
+    background-color: var(--cor1);
+    color: white;
+    padding: 10px;
+    margin: -10px;
+    
+}
+header p {
+    text-align: left;
+    text-decoration: underline;
+    color: var(--cor3);
+    text-indent: 2px;
+    
+}
+main{
+    background-color: #161d5b7f;
+}
+h1
+nav :hover{
+    background-color: #030d64;
+    padding: 2px 5px 2px 5px;
+    margin: 2px;
+}
+section p {
+    padding-left: 2px;
+    text-indent: 5px;
+}
+section > h1 {
+    color: var(--cor2);
+}
+footer {
+
+}

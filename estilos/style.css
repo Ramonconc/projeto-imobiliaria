@@ -16,8 +16,8 @@ header {
     padding: 20px;
     margin: -8px;
     border-radius: -10px;
-    background: black url(../imagens/fundo2.jpg) no-repeat ;
-    background-size: cover;
+    
+  
     border-radius: 5px;
 }
 header p {
@@ -37,14 +37,15 @@ header h1 {
     font-size: 50px;
     text-align: left;
     color: rgba(0, 0, 0, 0.868);
-    text-shadow: 5px 5px 5px rgba(2, 2, 120, 0.411);
+    text-shadow: rgba(0, 0, 0, 0.579);
     padding: 5px;
 }
 a {
     text-decoration: none;
+    color: gray
 }
 main{
-   
+    background: black url(../imagens/casa1.jpg) no-repeat fixed;
     background-size: cover;
     padding: 20px;
     margin: auto;
@@ -54,18 +55,19 @@ main{
     
 }
 nav :hover{
-    background-color: lightgray;
-    padding: 5px;
     margin: 2px;
     width: 90px;
     border-radius: 5px;
+    text-decoration: underline orange ;
+   transition: 1.5s;
+   color: black;
 }
 section {
     background-color: #ffffffd2; 
     border-radius: 5px;
     width: 500px;
-    margin: 10px 30%; 
-    padding: 10px;
+    margin: 10px 30% ;
+    padding: 5px;
 }
 section p {
     text-indent: 5px;
@@ -94,7 +96,9 @@ section#boas-vindas {
 }
 
 footer {
-    background-color: #a54927;
-    color: white;
+    background-color: rgb(11, 11, 61);
+    color: rgba(255, 255, 255, 0.537);
+    width: 100vw;
+    
 }
 

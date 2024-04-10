@@ -40,6 +40,17 @@ header h1 {
     text-shadow: rgba(0, 0, 0, 0.579);
     padding: 5px;
 }
+nav :hover{
+    margin: 2px;
+    width: 90px;
+    border-radius: 5px;
+    text-decoration: underline orange ;
+   transition: 1.5s;
+   color: black;
+}
+nav {
+    text-align: top right;
+}
 a {
     text-decoration: none;
     color: gray
@@ -54,20 +65,15 @@ main{
     height: auto;
     
 }
-nav :hover{
-    margin: 2px;
-    width: 90px;
-    border-radius: 5px;
-    text-decoration: underline orange ;
-   transition: 1.5s;
-   color: black;
-}
+
 section {
     background-color: #ffffffd2; 
     border-radius: 5px;
     width: 500px;
-    margin: 10px 30% ;
+    margin: 10px;
     padding: 5px;
+    text-align: justify;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.484);
 }
 section p {
     text-indent: 5px;
@@ -81,10 +87,11 @@ section p {
 section  h2 {
     color: var(--cor1);
     padding-left: 10px;
+    font-weight: bolder;
 }
 section#boas-vindas {
     background-color: #ffffff65;
-    color: var(--cor1);
+    color: black;
     width: 500px;
     margin: 0 30%;
     padding: 5px;
@@ -93,6 +100,10 @@ section#boas-vindas {
     font-style: italic;
     font-weight: bold;
     text-align: center;
+}
+
+section.direita {
+    margin: 10px 60%;
 }
 
 footer {

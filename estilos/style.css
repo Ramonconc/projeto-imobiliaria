@@ -12,13 +12,11 @@ body {
 }
 header {
     font-weight: bolder;
-    
     padding: 20px;
     margin: -8px;
     border-radius: -10px;
-    
-  
     border-radius: 5px;
+    
 }
 header p {
     display: inline-block;
@@ -48,32 +46,38 @@ nav :hover{
    transition: 1.5s;
    color: black;
 }
-nav {
-    text-align: top right;
-}
+
 a {
     text-decoration: none;
     color: gray
 }
 main{
-    background: black url(../imagens/casa1.jpg) no-repeat fixed;
-    background-size: cover;
     padding: 20px;
     margin: auto;
     border-radius: 2px 2px;
     max-width: 100%;
     height: auto;
-    
+}
+main#pag1{
+    background: black url(../imagens/casa1.jpg) no-repeat fixed; 
+    background-size: 100vw;
+   
+}
+main#pag2 {
+    background-color: rgb(255, 255, 255);
 }
 
 section {
+    display: inline-block;
     background-color: #ffffffd2; 
     border-radius: 5px;
     width: 500px;
     margin: 10px;
     padding: 5px;
     text-align: justify;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.484);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.315);
+    max-width: 90vw;
+    min-width: 300px;
 }
 section p {
     text-indent: 5px;
@@ -85,7 +89,7 @@ section p {
     margin: 10px;
 }
 section  h2 {
-    color: var(--cor1);
+    color: rgb(13, 22, 40);
     padding-left: 10px;
     font-weight: bolder;
 }
@@ -105,7 +109,10 @@ section#boas-vindas {
 section.direita {
     margin: 10px 60%;
 }
-
+img {
+    display: inline;
+    border-radius: 5px;
+}
 footer {
     background-color: rgb(11, 11, 61);
     color: rgba(255, 255, 255, 0.537);

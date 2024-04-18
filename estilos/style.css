@@ -90,7 +90,7 @@ main{
 main#pag1{
     background: black url(../imagens/casa1.jpg) no-repeat fixed ; 
     background-size: cover;
-   
+    overflow: hidden;
 }
 main#pag2 {
     background-color: rgb(255, 255, 255);
@@ -160,4 +160,7 @@ footer {
     background-color: rgb(11, 11, 61);
     color: rgba(255, 255, 255, 0.537);
     width: 100vw;
+    height: 80px;
+    padding: 10px;
+    margin: -2px;
 }

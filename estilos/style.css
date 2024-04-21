@@ -147,8 +147,8 @@ section.img  {
 }
 .img :hover {
     margin: 10px;
-    transition: 0.5s;
-    background-color: rgba(211, 211, 211, 0.597);
+    transition: 1s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.392);
 }  
 img {
     width: 300px;

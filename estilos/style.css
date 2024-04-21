@@ -148,7 +148,6 @@ section.img  {
 .img :hover {
     margin: 10px;
     transition: 1s;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.392);
 }  
 img {
     width: 300px;

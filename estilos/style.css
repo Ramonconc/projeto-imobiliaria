@@ -17,7 +17,6 @@ header {
     font-weight: bolder;
     padding: 20px;
     margin: -8px;
-    border-radius: -10px;
     border-radius: 5px;
 
 }
@@ -103,7 +102,7 @@ section {
     margin: 10px;
     padding: 5px;
     text-align: center;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.315);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.164);
     max-width: 90vw;
     min-width: 300px;
     font-family: 'Montserrat';
@@ -148,12 +147,17 @@ section.img  {
 .img :hover {
     margin: 10px;
     transition: 1s;
+    background-color: #c0c6ff79;
 }  
 img {
     width: 300px;
     height: 190px;
     padding: 10px;
     margin: -12px -12px -12px 12px;
+}
+#empe {
+    height: 400px;
+    width: 200px;
 }
 footer {
     background-color: rgb(11, 11, 61);

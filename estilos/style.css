@@ -46,7 +46,6 @@ header {
     margin: -8px;
     border-radius: -10px;
     border-radius: 5px;
-    
 }
 header p {
     display: inline-block;
@@ -80,7 +79,6 @@ a {
     text-decoration: none;
     color: gray
 }
-
 main{
     padding: 20px;
     border-radius: 2px 2px;    
@@ -100,7 +98,7 @@ section {
     border-radius: 5px;
     width: 500px;
     margin: 10px;
-    padding: 5px;
+    padding: px;
     text-align: center;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.164);
     max-width: 90vw;
@@ -154,6 +152,11 @@ img {
     height: 190px;
     padding: 10px;
     margin: -12px -12px -12px 12px;
+}
+iframe {
+    padding: 20px;
+    
+    border: 2px rgba(0, 0, 0, 0.368) solid;
 }
 #empe {
     height: 400px;

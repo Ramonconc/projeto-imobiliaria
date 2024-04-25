@@ -65,11 +65,12 @@ main{
     padding: 20px;
     border-radius: 2px 2px;    
     height: auto;
+    overflow-x: hidden;
 }
 main#pag1{
     background: black url(../imagens/casa1.jpg) no-repeat fixed ; 
     background-size: cover;
-    overflow-x: hidden;
+    
 }
 main#pag2 {
     background-color: rgb(255, 255, 255);
@@ -134,6 +135,7 @@ img {
     height: 190px;
     padding: 10px;
     margin: -12px -12px -12px 12px;
+    border-radius: 5px;
 }
 iframe {
     background-color: #ced0e6;

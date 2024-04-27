@@ -80,8 +80,8 @@ section {
     background-color: #ffffffd2; 
     border-radius: 5px;
     width: 500px;
-    margin: 10px;
-    padding: px;
+    margin: 0px;
+    padding: 10px;
     text-align: center;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.164);
     font-family: 'Montserrat';
@@ -108,7 +108,7 @@ section#boas-vindas {
     background-color: #ffffff65;
     color: black;
     width: 500px;
-    margin: 0 30%;
+    margin: 10px 30%;
     padding: 5px;
     border-radius: 5px;
     border: 2px solid rgb(113, 98, 15);
@@ -145,7 +145,8 @@ img#logo {
  }
 iframe {
     background-color: #ced0e6;
-    border: 5px rgb(0, 29, 107) solid;
+    border: 3px rgba(0, 29, 107, 0.422) solid;
+    margin: 5px;
 }
 #empe {
     height: 400px;
